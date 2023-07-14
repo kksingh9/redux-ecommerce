@@ -4,10 +4,10 @@ import cartReducer from "./cart";
 import cartItemReducer from "./AddToCart";
 
 const store = configureStore({
-    reducer : {
-        cart: cartReducer,
-        cartItem: cartItemReducer,
-    }
+  reducer: {
+    cart: cartReducer,
+    cartItem: cartItemReducer,
+  },
 });
 
 export default store;
